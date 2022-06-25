@@ -5,7 +5,7 @@ import { AmazonContext } from '../context/AmazonContext'
 
 import Transaction from '../components/Transaction'
 
-const transactionHistory = () => {
+const TransactionHistory = () => {
     const styles = {
         container: `h-full w-full flex bg-[#fff]`,
         main: `w-full h-full flex flex-col mt-[50px]`,
@@ -41,4 +41,4 @@ const transactionHistory = () => {
     )
 }
 
-export default transactionHistory
+export default TransactionHistory
